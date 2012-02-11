@@ -1,8 +1,8 @@
 require 'spec_helper'
 
-describe "inventories/show" do
+describe "items/show" do
   before(:each) do
-    @inventory = assign(:inventory, stub_model(Inventory,
+    @item = assign(:item, stub_model(Item,
       :title => "Title",
       :aisle => "Aisle"
     ))

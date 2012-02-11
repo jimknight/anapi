@@ -1,5 +1,5 @@
 Anapi::Application.routes.draw do
-  resources :inventories
+  resources :items
 
   resources :companies
 
